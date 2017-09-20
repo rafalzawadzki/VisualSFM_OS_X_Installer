@@ -258,6 +258,7 @@ function installSiftGPU () {
         unzip $SIFT_GPU_ZIP
     fi
 
+mv SiftGPU-master SiftGPU
 cd SiftGPU
 ####### makefile Patches
 	# echo "Changing SiftGPU GCC to Brews gcc-4.9"
